@@ -1,0 +1,269 @@
+Features shape : (1914, 32)
+Target shape   : (1914,)
+
+Column names
+Index(['PrevOpen', 'PrevHigh', 'PrevLow', 'PrevAdjClose', 'PrevVol', '9MA',
+       '20MA', 'UpperBB', 'MidBB', 'LowerBB', 'SAR', 'ADX', 'MACD',
+       'MACDSIGNAL', 'MACDHIST', 'MOM', 'ROC', 'RSI', 'ATR', 'BETA',
+       'LINEARREG', 'LINEARREG_ANGLE', 'LINEARREG_SLOPE', 'STDDEV', 'TSF',
+       'VAR', 'PrevIndOpen', 'PrevIndHigh', 'PrevIndLow', 'PrevIndClose',
+       'PrevIndVol', 'Open', 'Adj Close'],
+      dtype='object')
+
+Statistical summary
+       PrevOpen  PrevHigh  PrevLow  PrevAdjClose       PrevVol      9MA  \
+count  1,914.00  1,914.00 1,914.00      1,914.00      1,914.00 1,914.00   
+mean      45.13     46.35    43.87         45.13  1,166,180.56    45.14   
+std       24.77     25.36    24.12         24.77  1,698,372.15    24.52   
+min        5.40      5.77     5.20          5.34      7,500.00     6.95   
+25%       21.27     21.84    20.52         21.22    357,525.00    21.12   
+50%       43.62     44.82    42.48         43.80    779,450.00    44.32   
+75%       64.05     65.59    62.36         64.25  1,377,150.00    64.48   
+max      115.85    116.75   111.47        114.64 30,660,400.00   106.71   
+
+          20MA  UpperBB    MidBB  LowerBB    ...       STDDEV      TSF  \
+count 1,914.00 1,914.00 1,914.00 1,914.00    ...     1,914.00 1,914.00   
+mean     45.15    52.05    45.16    38.26    ...         1.44    45.13   
+std      24.21    28.20    24.21    22.08    ...         1.97    25.19   
+min       8.98    13.51     9.15   -14.12    ...         0.06     0.33   
+25%      21.01    25.26    21.02    17.37    ...         0.55    21.09   
+50%      44.95    49.98    45.01    36.27    ...         1.04    43.57   
+75%      64.20    73.99    64.28    56.00    ...         1.80    63.89   
+max      99.69   147.63    99.82    92.02    ...        35.00   120.09   
+
+           VAR  PrevIndOpen  PrevIndHigh  PrevIndLow  PrevIndClose  \
+count 1,914.00     1,914.00     1,914.00    1,914.00      1,914.00   
+mean      5.97        88.82        89.63       87.88         88.28   
+std      50.03        24.83        25.07       24.56         24.86   
+min       0.00        34.75        35.69       34.75         34.94   
+25%       0.31        72.24        73.15       71.25         71.18   
+50%       1.09        95.98        96.84       95.05         95.55   
+75%       3.25       107.73       108.91      106.68        107.52   
+max   1,225.23       133.09       133.60      132.17        131.67   
+
+         PrevIndVol     Open  Adj Close  
+count      1,914.00 1,914.00   1,914.00  
+mean   3,657,323.98    45.12      45.12  
+std    2,992,208.07    24.77      24.78  
+min      291,300.00     5.31       5.20  
+25%    1,841,550.00    21.27      21.22  
+50%    2,833,200.00    43.62      43.80  
+75%    4,371,450.00    64.05      64.25  
+max   35,551,800.00   115.85     114.64  
+
+[8 rows x 33 columns]
+
+Datatypes
+PrevOpen           float64
+PrevHigh           float64
+PrevLow            float64
+PrevAdjClose       float64
+PrevVol            float64
+9MA                float64
+20MA               float64
+UpperBB            float64
+MidBB              float64
+LowerBB            float64
+SAR                float64
+ADX                float64
+MACD               float64
+MACDSIGNAL         float64
+MACDHIST           float64
+MOM                float64
+ROC                float64
+RSI                float64
+ATR                float64
+BETA               float64
+LINEARREG          float64
+LINEARREG_ANGLE    float64
+LINEARREG_SLOPE    float64
+STDDEV             float64
+TSF                float64
+VAR                float64
+PrevIndOpen        float64
+PrevIndHigh        float64
+PrevIndLow         float64
+PrevIndClose       float64
+PrevIndVol         float64
+Open               float64
+Adj Close          float64
+dtype: object
+
+PEARSON correlation
+                 PrevOpen  PrevHigh  PrevLow  PrevAdjClose  PrevVol   9MA  \
+PrevOpen             1.00      1.00     1.00          1.00    -0.07  0.99   
+PrevHigh             1.00      1.00     1.00          1.00    -0.06  0.99   
+PrevLow              1.00      1.00     1.00          1.00    -0.08  0.99   
+PrevAdjClose         1.00      1.00     1.00          1.00    -0.07  0.99   
+PrevVol             -0.07     -0.06    -0.08         -0.07     1.00 -0.05   
+9MA                  0.99      0.99     0.99          0.99    -0.05  1.00   
+20MA                 0.97      0.97     0.97          0.96    -0.04  0.99   
+UpperBB              0.92      0.92     0.92          0.92     0.01  0.94   
+MidBB                0.96      0.96     0.96          0.96    -0.03  0.98   
+LowerBB              0.94      0.93     0.94          0.93    -0.09  0.95   
+SAR                  0.93      0.93     0.93          0.93    -0.02  0.96   
+ADX                 -0.16     -0.16    -0.16         -0.16     0.09 -0.17   
+MACD                 0.32      0.32     0.33          0.33    -0.07  0.27   
+MACDSIGNAL           0.34      0.33     0.34          0.34    -0.05  0.32   
+MACDHIST             0.03      0.04     0.04          0.04    -0.09 -0.08   
+MOM                  0.17      0.18     0.18          0.19    -0.13  0.06   
+ROC                  0.15      0.16     0.16          0.17    -0.08  0.06   
+RSI                  0.21      0.22     0.22          0.23    -0.07  0.13   
+ATR                  0.82      0.83     0.81          0.82     0.14  0.85   
+BETA                 0.04      0.04     0.04          0.04     0.03  0.06   
+LINEARREG            0.99      0.99     0.99          0.99    -0.06  0.99   
+LINEARREG_ANGLE      0.17      0.18     0.18          0.18    -0.05  0.09   
+LINEARREG_SLOPE      0.19      0.19     0.19          0.20    -0.09  0.11   
+STDDEV               0.32      0.34     0.32          0.33     0.35  0.36   
+TSF                  0.99      0.99     0.99          0.99    -0.06  0.99   
+VAR                  0.04      0.05     0.04          0.04     0.30  0.10   
+PrevIndOpen          0.43      0.42     0.42          0.42     0.31  0.43   
+PrevIndHigh          0.42      0.42     0.42          0.42     0.31  0.43   
+PrevIndLow           0.42      0.42     0.42          0.42     0.31  0.43   
+PrevIndClose         0.42      0.42     0.42          0.42     0.31  0.43   
+PrevIndVol           0.26      0.26     0.25          0.25     0.09  0.27   
+Open                 0.99      1.00     1.00          1.00    -0.07  0.98   
+Adj Close            0.99      0.99     0.99          0.99    -0.07  0.98   
+
+                 20MA  UpperBB  MidBB  LowerBB    ...      STDDEV   TSF   VAR  \
+PrevOpen         0.97     0.92   0.96     0.94    ...        0.32  0.99  0.04   
+PrevHigh         0.97     0.92   0.96     0.93    ...        0.34  0.99  0.05   
+PrevLow          0.97     0.92   0.96     0.94    ...        0.32  0.99  0.04   
+PrevAdjClose     0.96     0.92   0.96     0.93    ...        0.33  0.99  0.04   
+PrevVol         -0.04     0.01  -0.03    -0.09    ...        0.35 -0.06  0.30   
+9MA              0.99     0.94   0.98     0.95    ...        0.36  0.99  0.10   
+20MA             1.00     0.97   1.00     0.96    ...        0.37  0.96  0.12   
+UpperBB          0.97     1.00   0.97     0.85    ...        0.42  0.91  0.19   
+MidBB            1.00     0.97   1.00     0.95    ...        0.37  0.95  0.13   
+LowerBB          0.96     0.85   0.95     1.00    ...        0.28  0.93  0.04   
+SAR              0.98     0.96   0.98     0.92    ...        0.38  0.93  0.15   
+ADX             -0.19    -0.12  -0.19    -0.28    ...       -0.06 -0.15 -0.02   
+MACD             0.14     0.07   0.13     0.20    ...        0.03  0.37 -0.09   
+MACDSIGNAL       0.22     0.15   0.21     0.26    ...        0.09  0.38 -0.00   
+MACDHIST        -0.19    -0.22  -0.19    -0.14    ...       -0.16  0.05 -0.28   
+MOM             -0.06    -0.11  -0.07    -0.02    ...       -0.13  0.19 -0.28   
+ROC             -0.04    -0.04  -0.05    -0.06    ...        0.02  0.17 -0.08   
+RSI              0.03     0.01   0.03     0.04    ...        0.03  0.23 -0.05   
+ATR              0.87     0.93   0.87     0.73    ...        0.55  0.81  0.31   
+BETA             0.06     0.06   0.06     0.06    ...        0.02  0.05  0.03   
+LINEARREG        0.96     0.92   0.96     0.94    ...        0.35  1.00  0.08   
+LINEARREG_ANGLE -0.04    -0.05  -0.04    -0.03    ...        0.01  0.22 -0.07   
+LINEARREG_SLOPE -0.04    -0.10  -0.05     0.02    ...       -0.06  0.25 -0.18   
+STDDEV           0.37     0.42   0.37     0.28    ...        1.00  0.35  0.86   
+TSF              0.96     0.91   0.95     0.93    ...        0.35  1.00  0.08   
+VAR              0.12     0.19   0.13     0.04    ...        0.86  0.08  1.00   
+PrevIndOpen      0.45     0.43   0.45     0.44    ...        0.16  0.42  0.05   
+PrevIndHigh      0.45     0.43   0.45     0.43    ...        0.16  0.41  0.05   
+PrevIndLow       0.45     0.43   0.45     0.43    ...        0.15  0.41  0.04   
+PrevIndClose     0.44     0.43   0.44     0.43    ...        0.16  0.41  0.05   
+PrevIndVol       0.28     0.29   0.28     0.24    ...        0.20  0.25  0.07   
+Open             0.96     0.92   0.96     0.93    ...        0.33  0.99  0.04   
+Adj Close        0.96     0.91   0.96     0.93    ...        0.33  0.98  0.04   
+
+                 PrevIndOpen  PrevIndHigh  PrevIndLow  PrevIndClose  \
+PrevOpen                0.43         0.42        0.42          0.42   
+PrevHigh                0.42         0.42        0.42          0.42   
+PrevLow                 0.42         0.42        0.42          0.42   
+PrevAdjClose            0.42         0.42        0.42          0.42   
+PrevVol                 0.31         0.31        0.31          0.31   
+9MA                     0.43         0.43        0.43          0.43   
+20MA                    0.45         0.45        0.45          0.44   
+UpperBB                 0.43         0.43        0.43          0.43   
+MidBB                   0.45         0.45        0.45          0.44   
+LowerBB                 0.44         0.43        0.43          0.43   
+SAR                     0.46         0.45        0.45          0.45   
+ADX                    -0.27        -0.27       -0.27         -0.27   
+MACD                   -0.10        -0.11       -0.10         -0.11   
+MACDSIGNAL             -0.11        -0.11       -0.11         -0.11   
+MACDHIST               -0.00        -0.00        0.00          0.00   
+MOM                    -0.05        -0.05       -0.04         -0.04   
+ROC                    -0.10        -0.10       -0.10         -0.10   
+RSI                    -0.19        -0.19       -0.18         -0.19   
+ATR                     0.42         0.42        0.41          0.41   
+BETA                    0.06         0.06        0.06          0.06   
+LINEARREG               0.42         0.42        0.42          0.41   
+LINEARREG_ANGLE        -0.04        -0.04       -0.03         -0.04   
+LINEARREG_SLOPE        -0.05        -0.05       -0.05         -0.05   
+STDDEV                  0.16         0.16        0.15          0.16   
+TSF                     0.42         0.41        0.41          0.41   
+VAR                     0.05         0.05        0.04          0.05   
+PrevIndOpen             1.00         1.00        1.00          1.00   
+PrevIndHigh             1.00         1.00        1.00          1.00   
+PrevIndLow              1.00         1.00        1.00          1.00   
+PrevIndClose            1.00         1.00        1.00          1.00   
+PrevIndVol              0.24         0.25        0.22          0.23   
+Open                    0.42         0.42        0.42          0.42   
+Adj Close               0.42         0.42        0.42          0.41   
+
+                 PrevIndVol  Open  Adj Close  
+PrevOpen               0.26  0.99       0.99  
+PrevHigh               0.26  1.00       0.99  
+PrevLow                0.25  1.00       0.99  
+PrevAdjClose           0.25  1.00       0.99  
+PrevVol                0.09 -0.07      -0.07  
+9MA                    0.27  0.98       0.98  
+20MA                   0.28  0.96       0.96  
+UpperBB                0.29  0.92       0.91  
+MidBB                  0.28  0.96       0.96  
+LowerBB                0.24  0.93       0.93  
+SAR                    0.30  0.93       0.92  
+ADX                   -0.09 -0.16      -0.16  
+MACD                  -0.02  0.33       0.32  
+MACDSIGNAL             0.01  0.33       0.33  
+MACDHIST              -0.08  0.04       0.04  
+MOM                   -0.09  0.19       0.19  
+ROC                   -0.09  0.17       0.17  
+RSI                   -0.10  0.23       0.23  
+ATR                    0.39  0.81       0.81  
+BETA                   0.07  0.04       0.04  
+LINEARREG              0.26  0.99       0.98  
+LINEARREG_ANGLE       -0.10  0.18       0.18  
+LINEARREG_SLOPE       -0.07  0.20       0.19  
+STDDEV                 0.20  0.33       0.33  
+TSF                    0.25  0.99       0.98  
+VAR                    0.07  0.04       0.04  
+PrevIndOpen            0.24  0.42       0.42  
+PrevIndHigh            0.25  0.42       0.42  
+PrevIndLow             0.22  0.42       0.42  
+PrevIndClose           0.23  0.42       0.41  
+PrevIndVol             1.00  0.25       0.25  
+Open                   0.25  1.00       1.00  
+Adj Close              0.25  1.00       1.00  
+
+[33 rows x 33 columns]
+
+Missing Values
+PrevOpen           False
+PrevHigh           False
+PrevLow            False
+PrevAdjClose       False
+PrevVol            False
+9MA                False
+20MA               False
+UpperBB            False
+MidBB              False
+LowerBB            False
+SAR                False
+ADX                False
+MACD               False
+MACDSIGNAL         False
+MACDHIST           False
+MOM                False
+ROC                False
+RSI                False
+ATR                False
+BETA               False
+LINEARREG          False
+LINEARREG_ANGLE    False
+LINEARREG_SLOPE    False
+STDDEV             False
+TSF                False
+VAR                False
+PrevIndOpen        False
+PrevIndHigh        False
+PrevIndLow         False
+PrevIndClose       False
+PrevIndVol         False
+Open               False
+Adj Close          False
+dtype: bool
