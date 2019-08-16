@@ -27,21 +27,21 @@ This project is only meant to act as a demonstration of some of my Python progra
 
 First thing's first, if you want to run this project, you need to have the appropriate dependencies installed. Everything listed below are the versions of each dependency as of this writing. I'll explain how to install them all at the bottom of the list. Now I can't speak for other versions, but you need to be running ... Python 3.6 on Windows 10 ..., as that's what I'm running on my machine. Here are the dependencies you'll need:
 
-DateTime==4.3
-pandas==0.23.0
-pandas-datareader==0.7.0
-seaborn==0.8.1
-matplotlib==2.1.2
-numpy==1.14.5
-bs4==0.0.1
-requests==2.22.0
-feature-selector==1.0.0
-featuretools==0.9.1
-dask==2.2.0
-dask-ml==1.0.0
-sklearn==0.0
-TPOT==0.10.2
-ta-lib==0.4.18
+1. DateTime==4.3
+2. pandas==0.23.0
+3. pandas-datareader==0.7.0
+4. seaborn==0.8.1
+5. matplotlib==2.1.2
+6. numpy==1.14.5
+7. bs4==0.0.1
+8. requests==2.22.0
+9. feature-selector==1.0.0
+10. featuretools==0.9.1
+11. dask==2.2.0
+12. dask-ml==1.0.0
+13. sklearn==0.0
+14. TPOT==0.10.2
+15. ta-lib==0.4.18
 
 Again, this is all in Python 3.6 and Windows 10. All of the other modules used in this project (like "os" and "warnings" should be included in your Python package already. If you run into something I've missed, let me know, but this should be a complete list. There are two ways to install all of these packages:
 
@@ -70,19 +70,19 @@ Or
 
 Before I forget and start going down the code wormhole, I wanted to take some time and reference some various websites, other's projects and the tools that I'm using in the following code. I want to thank everyone involved in my learning process and I urge you to check them out:
 
-The motivation and skeleton for my project - https://gogul09.github.io/software/regression-example-boston-housing-prices (That article taught me more in one reading than any other)
+1. The motivation and skeleton for my project - https://gogul09.github.io/software/regression-example-boston-housing-prices (That article taught me more in one reading than any other)
 
-TPOT (automated machine learning) - https://epistasislab.github.io/tpot/
-FeatureTools (feature engineering) - https://www.featuretools.com/
-Feature-Selector (take a guess :D) - https://github.com/WillKoehrsen/feature-selector
-Dask (parallel computing) - https://docs.dask.org/en/latest/
-TA-Lib (technical indicators) - https://mrjbq7.github.io/ta-lib/index.html
+2. TPOT (automated machine learning) - https://epistasislab.github.io/tpot/
+3. FeatureTools (feature engineering) - https://www.featuretools.com/
+4. Feature-Selector (take a guess :D) - https://github.com/WillKoehrsen/feature-selector
+5. Dask (parallel computing) - https://docs.dask.org/en/latest/
+6. TA-Lib (technical indicators) - https://mrjbq7.github.io/ta-lib/index.html
 
-Medium (Great resource for learning. Sign up for emails based on what you read!) - https://medium.com/topic/artificial-intelligence
-Towards Data Science (Another awesome resource) - https://towardsdatascience.com/
-Machine Learning Mastery (see above) - https://machinelearningmastery.com/
-Stack Overflow (duh!) - https://stackoverflow.com/
-Upwork (in a real pinch, pay someone to teach you something) - www.upwork.com
-Udemy (I received great value from this course) - https://www.udemy.com/the-data-science-course-complete-data-science-bootcamp/
+7. Medium (Great resource for learning. Sign up for emails based on what you read!) - https://medium.com/topic/artificial-intelligence
+8. Towards Data Science (Another awesome resource) - https://towardsdatascience.com/
+9. Machine Learning Mastery (see above) - https://machinelearningmastery.com/
+10. Stack Overflow (duh!) - https://stackoverflow.com/
+11. Upwork (in a real pinch, pay someone to teach you something) - www.upwork.com
+12. Udemy (I received great value from this course) - https://www.udemy.com/the-data-science-course-complete-data-science-bootcamp/
 
 # Enjoy!
