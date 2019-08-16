@@ -1,5 +1,5 @@
 # Project-1-Closing-Price-Stock-Regressor-Version-1.0
-Predicting a stock's daily closing price using automated multiple linear regression.
+Predicting a stock's daily closing price using automated multiple linear regression. The Jupyter Notebook in Python 3.6 (Windows 10) has already been run and the outputs are uploaded in this repository. If you wish to re-run it, make sure you Clear All Ouputs and Restart the kernel. You will have new output plot images and .csv/.txt summaries generated for your run.
 
 This is my first repository on GitHub. These projects are meant to be a display of my current Python and machine learning programming knowledge to date (August 2019). This first project has been well commented and I'm hoping that someone new to the field will find it useful in getting started.
 
